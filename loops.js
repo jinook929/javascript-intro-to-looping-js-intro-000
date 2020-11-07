@@ -5,20 +5,19 @@ function forLoop(arr) {
     } else {
       arr.push(`I am ${i} strange loops.`)
     }
-    
   }
-  return arr
+  return arr;
 }
 
 function whileLoop(number) {
   while(number > 0) {
-    console.log(number)
-    number--
+    console.log(number);
+    number--;
   }
   return 'done'
 }
 
-var i = 0
+var i = 0;
 
 function incrementVariable() {
   i = i + 1;
@@ -26,8 +25,7 @@ function incrementVariable() {
 }
 
 function doWhileLoop(integer) {
-  
   do {
-    console.log("I run once regardless.")
-  } while (incrementVariable() < integer)
+    console.log("I run once regardless.");
+  } while (incrementVariable() < integer);
 }
